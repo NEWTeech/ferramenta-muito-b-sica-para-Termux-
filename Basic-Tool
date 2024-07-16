@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Obtém o IP público usando o serviço ifconfig.me
+PUBLIC_IP=$(curl -s ifconfig.me)
+
+# Exibe o IP público
+echo "Your public IP address is: $PUBLIC_IP
